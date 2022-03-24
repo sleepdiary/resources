@@ -1,0 +1,49 @@
+---
+
+-
+  name: The Sleep Diary Project
+  last updated: 2022-03-21
+  url: https://sleepdiary.github.io/
+  blurb: |
+    This project itself includes [a reporting program](https://sleepdiary.github.io/report/).
+  reports:
+    -
+      name: Sample report
+      layout: calendar
+      url: https://sleepdiary.github.io/report/Example%20report.pdf
+      thumb: /create/forms/Sleep Diary Report-thumbnail.jpg
+      how received: shared with consent
+      page duration: 1 week
+      total pages: variable
+      start time: 6pm
+      in-bed marker: "&darr;"
+      out-of-bed marker: "&uarr;"
+      sleep marker: "&#x7c;―&#x7c;"
+      events:
+        -
+          key: A
+          value: each alcoholic drink
+        -
+          key: C
+          value: each caffeinated drink includes coffee, tea, chocolate, cola
+        -
+          key: P
+          value: every time you take a sleeping pill or medication to aid sleep
+        -
+          key: M
+          value: Meals
+        -
+          key: S
+          value: Snacks
+        -
+          key: X
+          value: Exercise
+        -
+          key: T
+          value: use of toilet during sleep-time
+        -
+          key: N
+          value: noise that disturbs your sleep
+        -
+          key: W
+          value: time of wake-up alarm (if any)

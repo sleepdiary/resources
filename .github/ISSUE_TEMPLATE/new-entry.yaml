@@ -1,0 +1,162 @@
+name: New entity
+description: Tell us about a new entity
+title: "[New entity]: "
+labels: ["entities", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+        ## Consent
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements
+      description: 
+      options:
+        - label: Any private information about the organisation (e.g. their forms or reports) will only be shared after receiving the organisation's explicit consent
+          required: true
+        - label: This message does not contain any personal information, even if that information is provided with consent
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+
+        ## General questions
+  - type: input
+    id: name
+    attributes:
+      label: The organisation's preferred name
+      description: What name should we display for this organisation?
+      placeholder: Teasdale Associates
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One-line description of the organisation
+      placeholder: Teasdale Associates treats sleeping disorders in North-East Freedonia
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Administrative Contact
+      description: How would we contact the organisation about changes to the site?
+      placeholder: E-mail admin@teasdale.fd
+    validations:
+      required: true
+  - type: checkboxes
+    id: referrals
+    attributes:
+      label: Referral policy
+      options:
+        - this organisation accepts referrals directly from members of the public
+        - this organisation accepts referrals from any doctor (e.g. a general practitioner or primary care physician)
+        - this organisation accepts referrals from other sleep specialists
+- type: dropdown
+  id: relationship
+  attributes:
+    label: How are you associated with this organisation?
+    options:
+      - I'd like to add a new entry about an organisation I'm part of
+      - I'd like to add a new entry about a specialist I've used
+  validations:
+    required: true
+  - type: markdown
+    attributes:
+      value: |
+        If you'd like to provide feedback about an existing entry, please use [the feedback form](/sleepdiary/resources/issues/new?template=entry-feedback.md&title=Feedback+for+an+existing+entry).
+  - type: dropdown
+  id: specialist_type
+  attributes:
+    label: Type of organisation
+    options:
+        - this is a medical organisation (it provides diagnosis and treatment for problems)
+        - this is an academic organisation (it conducts research about the sleep process)
+  - type: dropdown
+    id: stage
+    attributes:
+      label: The organisation...
+      options:
+        - has already consented to having their information published
+        - has expressed an interest in exploring publication
+        - has not yet been informed about this process
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Procedure
+        
+        Please describe the journey someone would take through your organisation.  How would they contact you?  What steps would they go through?  What outcome(s) should they expect?
+
+        You might like to describe your procedure by reusing existing text from [the specialists page](sleepdiary.github.io/docs/specialists/), or you might prefer to write a long description of your organisation's procedure, which we will later cut down to size.
+
+        However you approach this section, it will probably take us several attempts to draft a good procedure.  Don't worry too much about getting it right first time!
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Procedure
+      description: Walk us through the patient/participant experience
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Locations
+
+        Please specify the address of each location, plus the name and website if available.
+  - type: textarea
+    id: locations
+    attributes:
+      label: Locations
+      description: Which locations does the organisation use?
+      placeholder:
+        Main office
+        123 Sylvania Road, Capital City, Freedonia
+        https://www.teasdale.fd/main-office
+
+        Other offices:
+        234 Chicolini Drive, Capital City, Freedonia
+        345 High Street, Capital City, Freedonia
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Forms and reports
+
+        __WARNING:__ only upload files after receiving informed consent from the organisation, and don't upload reports containing personal information.  If your situation is within the spirit but not the letter of that rule, please discuss the situation with us before uploading.  Files uploaded in error are far more problematic than files uploaded in a follow-up message.
+  - type: dropdown
+    id: copyright
+    attributes:
+      label: Status of these files
+      options:
+        - label: This does not include any forms or reports
+        - I own the copyright for any forms and reports, and I hereby give permission for them to be used
+        - I have received permission to make these forms available, which they will confirm when contacted
+        - I am providing preliminary information, so the organisation can better-informed consent when shown a proposed update to the site
+  - type: textarea
+    id: forms
+    attributes:
+      label: Forms and reports
+      description: Names of forms and reports, plus uploaded files or instructions to find them through the website
+      placeholder:
+        Adult sleep diary
+        Go to https://www.teasdale.fd/, click "patient forms", then click "adult sleep diary"
+
+        Example sleep report
+        See linked PDF
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        Thanks!  We'll take a look and talk through the details in a day or so.
