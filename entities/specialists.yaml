@@ -1,0 +1,257 @@
+---
+
+-
+  name: The Center for Sleep & Wake Disorders
+  last updated: 2022-03-21
+  url: https://sleepdoc.com/
+  specialist type: physician
+  blurb: "[The Center for Sleep & Wake Disorders](https://sleepdoc.com/) is an accredited full service sleep center."
+  referral type: direct
+  procedure type: researched
+  procedure: |
+    1. [register as a patient](https://sleepdoc.com/appointments) and [authorise them to e-mail you](http://sleepdoc.com/emailauth)
+    2. [make an appointment](https://sleepdoc.com/contact-us)
+    3. you may be asked to fill out a sleep diary like one of those shown
+    4. your doctor will aim to diagnose your condition, may be able to offer treatment for a common condition (such as [DSPD](https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder)), or may refer you to someone who specialises in a rare condition (such as [non-24](https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder))
+  locations:
+    -
+      url: https://sleepdoc.com/about#facility
+      address: |
+        5454 Wisconsin Ave.,
+        Suite 1725 Chevy Chase,
+        MD 20815
+      GPS co-ordinates: 38.962789082577665, -77.08724644403178
+  forms:
+    -
+      name: Adult sleep diary
+      layout: calendar
+      sharing status: found online
+      find this by: "going to their [forms and resources page](https://sleepdoc.com/forms)"
+      page duration: 28 days
+      total pages: 1
+      start time: 6pm
+      in-bed marker: ○
+      out-of-bed marker: 🌅
+      sleep marker: ●―● (asleep) <br/> N〰N (nap)
+      gallery:
+        -
+          thumb: /resources/thumbs/Center for Sleep and Wake Disorders-adult.jpg
+          url: https://sleepdoc.com/wp-content/uploads/2019/10/sleep_log.pdf
+      events:
+        -
+          key: A
+          value: alcohol
+        -
+          key: M
+          value: medication
+        -
+          key: C
+          value: caffeine
+        -
+          key: T
+          value: TV
+    -
+      name: Adolescent sleep diary
+      layout: calendar
+      gallery:
+        -
+          thumb: /resources/thumbs/Center for Sleep and Wake Disorders-adolescent.jpg
+          url: https://sleepdoc.com/wp-content/uploads/2019/10/Sleep-log-adolescent.pdf
+      sharing status: found online
+      find this by: "going to their [forms and resources page](https://sleepdoc.com/forms)"
+      page duration: 28 days
+      total pages: 1
+      start time: 6pm
+      in-bed marker: ○
+      out-of-bed marker: 🌅
+      sleep marker: ●―● (asleep) <br/> N〰N (nap)
+      events:
+        -
+          key: F
+          value: food
+        -
+          key: M
+          value: medication
+        -
+          key: C
+          value: caffeine
+        -
+          key: T
+          value: TV
+
+-
+  name: Dr. Karen M. Baker
+  last updated: 2022-03-21
+  url: http://www.orlandosleep.com/
+  specialist type: physician
+  blurb: "[Dr. Karen M. Baker](http://www.orlandosleep.com/) is a medical director of the Center for Sleep Disorders."
+  referral type: secondary
+  procedure type: researched
+  procedure: |
+    1. a physician refers you if they feel it is necessary.  If no physician referral is available, [make an appointment directly](http://www.orlandosleep.com/make-an-appointment.htm)
+    2. [make an appointment](http://www.orlandosleep.com/appointment-form.htm)
+    3. you may be asked to fill out a sleep diary like the one shown
+    4. your doctor will aim to diagnose your condition, may be able to offer treatment for a common condition (such as [DSPD](https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder)), or may refer you to someone who specialises in a rare condition (such as [non-24](https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder))
+  locations:
+    -
+      name: Orlando Main Campus
+      address: |
+        501 E. King Street,
+        Orlando,
+        FL 32803
+      GPS co-ordinates: 28.57840750276319, -81.3707357577434
+    -
+      name: East Orlando
+      address: |
+        7727 Lake Underhill Road,
+        Orlando,
+        Florida 32822
+      GPS co-ordinates: 28.540574207076485, -81.28042285192419
+    -
+      name: Altamonte
+      address: |
+        601 East Altamonte Drive,
+        Altamonte Springs,
+        Florida 32701
+      GPS co-ordinates: 28.666869116019466, -81.36967268657777
+    -
+      name: Partin Settlement Health Park
+      address: |
+        2488 E. Irlo Bronson Memorial Hwy. (US 192/441),
+        Kissimmee,
+        FL 34744
+      GPS co-ordinates: 28.277648997831967, -81.34272387309291
+    -
+      name: Apopka
+      address: |
+        1480 W. Orange Blossom Trail (US 441),
+        Apopka,
+        FL 32712
+      GPS co-ordinates: 28.68570028373127, -81.53690937123332
+  forms:
+    -
+      layout: calendar
+      gallery:
+        -
+          thumb: /resources/thumbs/Dr. Karen M. Baker.jpg
+          url: http://www.orlandosleep.com/forms/sleepdiary_v2.pdf
+      sharing status: found online
+      find this by: clicking on the &ldquo;Sleep facts & info&rdquo; menu on [her home page](http://www.orlandosleep.com/)
+      page duration: 2 weeks
+      total pages: 1
+      start time: Noon
+      in-bed marker: "&#x7c;"
+      out-of-bed marker: (none)
+      sleep marker: ▬
+      events:
+        -
+          key: C
+          value: coffee, cola, or tea
+        -
+          key: M
+          value: medicine
+        -
+          key: A
+          value: alcohol
+        -
+          key: E
+          value: exercise
+
+-
+  name: Raleigh Neurology Associates
+  last updated: 2022-03-21
+  url: https://www.raleighneurology.com/about-us/who-we-are/
+  specialist type: physician
+  blurb: "[Raleigh Neurology Associates](https://www.raleighneurology.com/about-us/who-we-are/) provide a [Sleep Medicine Program](https://www.raleighneurology.com/specialties-services/sleep-medicine/) among many other services."
+  referral type: direct
+  procedure type: confirmed
+  procedure: |
+    1. [contact Raleigh Neurology Associates](https://www.raleighneurology.com/about-us/ways-to-contact-us/#makeappointment)
+       * you will need to contact them by phone before you can get access to their telehealth site
+    2. optionally ask for a telehealth account
+       * only necessary if you prefer to contact your doctor online
+    3. ask to see your preferred doctor
+       * [Dr. Thomas Kirk, MD](https://www.raleighneurology.com/about-us/meet-our-physicians/thomas-kirk-md/) sees patients with any sleep concern
+       * [Dr. Thomas Perkins, MD, PhD](https://www.raleighneurology.com/about-us/meet-our-physicians/thomas-perkins-md-phd/) specialises in circadian rhythm disorders
+    4. appointments can be in-person, by phone, or through their patient portal
+    5. you may be asked to fill out a sleep diary like the one shown
+    6. your doctor will aim to diagnose your condition, may be able to offer treatment for a common condition (such as [DSPD](https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder)), or may refer you to someone who specialises in a rare condition (such as [non-24](https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder))
+  locations:
+    -
+      name: Main office
+      url: https://www.raleighneurology.com/about-us/locations-directions/#locationwrap
+      address: |
+        1520 & 1540 Sunday Drive,
+        Raleigh,
+        NC 27607
+      GPS co-ordinates: 35.80053098712522, -78.73183784706966
+    -
+      name: Durham office
+      url: https://www.raleighneurology.com/about-us/locations-directions/#durham
+      address: |
+        4111 Ben Franklin Blvd.,
+        Durham,
+        NC 27704
+      GPS co-ordinates: 36.04620121418172, -78.89819192723982
+  forms:
+    -
+      layout: calendar
+      gallery:
+        -
+          thumb: /resources/thumbs/Raleigh Neurology Associates.jpg
+          url: /resources/forms/Raleigh Neurology Associates/Raleigh_Neurology_Sleep_Chart_blank.pdf
+      sharing status: shared with consent
+      page duration: 2 months
+      total pages: 1
+      start time: 6pm
+      in-bed marker: "&darr;"
+      out-of-bed marker: "&uarr;"
+      sleep marker: ▬
+
+-
+  name: The Sleep Support Project
+  last updated: 2022-03-21
+  url: https://sleepsupportproject.org/about/
+  specialist type: physician
+  blurb: |
+    [The Sleep Support Project](https://sleepsupportproject.org/about/) are qualified BACP Registered counsellors.  Their [downloadable sleep diary](https://sleepsupportproject.org/sleep-diary-2/) is only available to members.
+  referral type: direct
+  procedure type: researched
+  procedure: |
+    1. make an initial consultation through [their contact form](https://www.raleighneurology.com/about-us/ways-to-contact-us/#makeappointment)
+    3. you may be asked to fill out a sleep diary like [the one on their site](https://sleepsupportproject.org/sleep-diary-2/)
+    4. your doctor will aim to diagnose your condition, may be able to offer treatment for a common condition (such as [DSPD](https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder)), or may refer you to someone who specialises in a rare condition (such as [non-24](https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder))
+  locations:
+    -
+      address: |
+        Knowsley Place,
+        Knowsley St,
+        Bury
+        BL9 0SW
+      GPS co-ordinates: 53.59028181972621, -2.2989824405785266
+
+-
+  name: UNC Sleep Disorders Center
+  last updated: 2022-03-23
+  url: https://www.med.unc.edu/neurology/divisions/sleep-1/
+  specialist type: physician
+  blurb: |
+    [UNC Health](https://www.unchealthcare.org/) is a not-for-profit integrated health care system owned by the state of North Carolina.  [The Sleep Disorders Center](https://www.uncmedicalcenter.org/uncmc/care-treatment/neurology/sleep-disorders/) provides care to patients who have a wide range of sleep-related disorders.
+  referral type: secondary
+  procedure type: confirmed
+  procedure: |
+    1. a physician refers you to [one of their doctors](https://www.med.unc.edu/neurology/divisions/sleep-1/sleep-team/)
+       * you may be able to ask about [their e-consult service](https://www.med.unc.edu/neurology/new-patient-referrals-1/adult-referrals/adult-neurology-e-consults/)
+    2. they will call you (usually within about 14-21 days) to give a response and schedule an appointment if necessary
+    3. go for one or more in-person appointments at the clinic
+    4. your doctor will aim to diagnose your condition, and may be able to offer treatment
+  locations:
+    -
+      name: Neurology Clinic
+      url: https://www.uncmedicalcenter.org/uncmc/hospitals-locations/profile/unc-hospitals-neurology-clinic/
+      address: |
+        300 Meadowmont Village Circle,
+        Suite 202,
+        Chapel Hill,
+        NC 27517
+      GPS co-ordinates: 35.904673699064354, -79.01186058561848

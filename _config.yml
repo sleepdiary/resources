@@ -1,0 +1,6 @@
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Sleep Resources
+description: A collection of files to help study and improve sleep

@@ -1,0 +1,166 @@
+name: New specialist
+description: Tell us about a new specialist
+title: "[New specialist]: "
+labels: ["specialists", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to tell us about this specialist!
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Privacy
+      description:
+      options:
+        - label: this message does not include any private information from the organisation (e.g. their forms and reports), unless the organisation has provided explicit consent
+          required: true
+        - label: this message does not contain any personal information, even if that information is provided with consent
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        If your situation falls within the letter but not the spirit of the above, please discuss the situation with us before uploading anything contentious.  You can always reply with more details later, and it gives us time to think it through without needing to make a snap decision.
+
+        ## General questions
+  - type: input
+    id: name
+    attributes:
+      label: The organisation's preferred name
+      placeholder: Teasdale Associates
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      placeholder: Teasdale Associates treats sleeping disorders in North Freedonia
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Administrative Contact
+      description: How would we contact the organisation about changes to the site?
+      placeholder: E-mail admin@teasdale.fd
+    validations:
+      required: true
+  - type: checkboxes
+    id: referrals
+    attributes:
+      label: Referral policy
+      options:
+        - label: this organisation accepts referrals directly from members of the public
+        - label: this organisation accepts referrals from any doctor (e.g. a general practitioner or primary care physician)
+        - label: this organisation accepts referrals from other sleep specialists
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: How are you associated with this organisation?
+      options:
+        - I am a member of the organisation
+        - I have used this organisation
+        - I am aware of this organisation in some other way
+    validations:
+      required: true
+  - type: dropdown
+    id: specialist_type
+    attributes:
+      label: Type of organisation
+      options:
+          - medical (provides diagnosis and treatment)
+          - academic (conducts research)
+  - type: dropdown
+    id: stage
+    attributes:
+      label: How is the organisation involved in this request?
+      options:
+        - it has already consented to having their information published
+        - it has expressed an interest in exploring publication
+        - it has not yet been informed about this process
+    validations:
+      required: true
+  - type: textarea
+    id: locations
+    attributes:
+      label: Locations
+      description: Please specify the address of each location, plus the name and website if available.
+      placeholder: |
+        Main office
+        123 Sylvania Road, Capital City, Freedonia
+        https://www.teasdale.fd/main-office
+
+        Other offices
+        234 Chicolini Drive, Capital City, Freedonia
+        345 High Street, Capital City, Freedonia
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Procedure
+
+        Please describe the journey someone would take through your organisation.  How would they contact you?  What steps would they go through?  What outcome(s) should they expect?
+
+        You might like to describe your procedure by reusing existing text from [the specialists page](https://sleepdiary.github.io/docs/specialists/), or you might prefer to write a long description of your organisation's procedure, which we will later cut down to size.
+
+        However you approach this section, it will probably take us several attempts to draft a good procedure.  Don't worry too much about getting it right first time!
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Journey
+      placeholder: |
+        1. book an appointment at https://www.teasdale.fd/appointment
+        2. visit us at one of the specified locations
+        3. you may be asked to fill out a sleep diary like one of those shown
+        4. your doctor will aim to diagnose your condition
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Forms and reports
+
+        Please provide links to forms and reports hosted on the organisation's website, or attach files for us to host.
+
+        It's recommended to host files on the organisation's site, so the organisation can update or deleting files at their convenience.  But we prefer hosted reports to use our [computer-generated datasets](/sleepdiary/resources/blob/main/common_sleep_diaries/), because it makes it easier to compare layouts.  These datasets are provided under [a &ldquo;no rights reserved&rdquo; license](https://creativecommons.org/share-your-work/public-domain/cc0/), so you're welcome to upload reports to your own site before contacting us.
+
+        We're also happy to host files ourselves.  But _the organisation must give informed consent before you upload_, all _forms must be blank_, and all _reports must use our [computer-generated datasets](/sleepdiary/resources/blob/main/common_sleep_diaries/)_.  Uploads that don't meet these criteria are likely to be deleted.
+
+        If your situation falls within the letter but not the spirit of the above, please discuss the situation with us before showing us anything contentious.  You can always reply with more details later, and it gives us time to think it through without needing to make a snap decision.
+
+  - type: dropdown
+    id: copyright
+    attributes:
+      label: Status of these files
+      options:
+        - This does not include any forms or reports
+        - I own the copyright for any forms and reports, and I hereby give permission for them to be used
+        - I have received permission to make these forms available, which they will confirm when contacted
+        - I am providing preliminary information, the organisation will provide a final version after reviewing a complete proposal
+  - type: textarea
+    id: forms
+    attributes:
+      label: Forms and reports
+      description: Names of forms and reports, plus uploaded files or instructions to find them through the website
+      placeholder: |
+        Short-term sleep diary
+        Go to https://www.teasdale.fd/, click "patient forms", then click "short-term sleep diary"
+
+        Example sleep report
+        See attached PDF (for instructions, see beneath this text box)
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any other comments
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        Thanks!  We'll take a look and talk to you in a day or so.
