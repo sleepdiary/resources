@@ -74,11 +74,7 @@ const name_preamble = /^(?:mr|mrs|miss|ms|dr|the)\b/i;
 
 if ( !fs.existsSync("thumbs") ) fs.mkdirSync("thumbs");
 
-fs.readdirSync("software-thumbs").forEach( filename => {
-    if ( !fs.existsSync(`thumbs/${filename}`) ) {
-        fs.cpSync(`software-thumbs/${filename}`, `thumbs/${filename}`, {recursive:true});
-    }
-});
+fs.cpSync(`software-thumbs`, `thumbs`, {recursive:true});
 
 [ 'specialists', 'software' ].forEach( source => {
 
@@ -130,7 +126,40 @@ fs.readdirSync("software-thumbs").forEach( filename => {
 
                 if ( !valid_specialist_types[p.specialist_type] ) errors.push("specialist type");
 
-                if ( !valid_referral_types[p.referral_type] ) errors.push("referral type");
+                if ( p.hasOwnProperty('referral_type') ) {
+                    if ( !Array.isArray(p.referral_type) ) {
+                        p.referral_type = [p.referral_type];
+                    }
+                    p.locations.forEach(
+                        l => l.referral_type = l.referral_type || p.referral_type
+                    );
+                } else {
+                    const known_referral_types = {}
+                    const referral_types = p.referral_type = [];
+                    p.locations.forEach(
+                        l => {
+                            if ( !l.referral_type ) {
+                                errors.push(`missing referral_type for ${l}`);
+                            }
+                            if ( !Array.isArray(l.referral_type) ) {
+                                l.referral_type = [l.referral_type];
+                            }
+                            l.referral_type.forEach(
+                                t => {
+                                    if ( !known_referral_types[t] ) {
+                                        known_referral_types[t] = 1;
+                                        referral_types.push(t);
+                                    }
+                                }
+                            );
+                        }
+                    );
+                }
+                p.referral_type.forEach(
+                    type => {
+                        if ( !valid_referral_types[type] ) errors.push("referral type");
+                    }
+                );
 
                 if ( !valid_procedure_types[p.procedure_type] ) errors.push("procedure type");
 
@@ -146,9 +175,24 @@ fs.readdirSync("software-thumbs").forEach( filename => {
             ['forms','reports'].forEach( fr_key =>
                 (p[fr_key]||[]).forEach( fr => {
 
-                    fr.display_name = p.name + ( fr.name ? ': '+fr.name : '' );
-                    fr.short_name   = ( p[fr_key].length == 1 ) ? p.name : fr.display_name;
-                    fr.short_name = fr.short_name.replace( /^the +/i, '' );
+                    if ( fr.name ) {
+                        fr.display_name = p.name + ': ' + fr.name;
+                        fr.short_name   = fr.name;
+                    } else {
+                        fr.display_name = fr.short_name = p.name;
+                        if ( p[fr_key].length > 1 ) {
+                            errors.push(`Please provide names for all ${fr} in ${p.name}`);
+                        }
+                    }
+                    fr.display_name = fr.display_name.replace( /^the +/i, '' );
+                    fr.short_name   = fr.short_name  .replace( /^the +/i, '' );
+
+                    if ( fr.start_page ) {
+                        fr.display_name += ",\npage "+fr.start_page;
+                        fr.short_name   += ",\npage "+fr.start_page;
+                    } else {
+                        fr.start_page = 1;
+                    }
 
                     if ( fr.layout == "calendar" ) {
                         fr.page_duration = {
@@ -164,8 +208,11 @@ fs.readdirSync("software-thumbs").forEach( filename => {
                     let thumbs = {};
                     if ( fr.thumb ) thumbs[fr.thumb] = [ 200, fr.url ];
                     fr.gallery.forEach( image => {
-                        if ( !fr.thumb ) fr.thumb = image.thumb;
+                        if ( fr.start_page != 1 && image.url.search(/#/) == -1 ) {
+                            image.url += `#page=${fr.start_page}`
+                        }
                         if ( !fr.url   ) fr.url   = image.url  ;
+                        if ( !fr.thumb ) fr.thumb = image.thumb;
                         if ( !image.title ) image.title = fr.name || p.name;
                         image.display_name = ( has_multiple_galleries ? fr.name + ': ' : '' ) + image.title;
                         image.short_name = image.title;
@@ -178,6 +225,8 @@ fs.readdirSync("software-thumbs").forEach( filename => {
                             async (_,thumb) => {
                                 thumb = __filename.replace(/[^\/]*$/,thumb);
                                 if ( !fs.existsSync(thumb) ) {
+                                    const thumb_dir = thumb.replace(/\/[^/]*$/,'');
+                                    if ( !fs.existsSync(thumb_dir) ) fs.mkdirSync(thumb_dir);
                                     const width = thumbs[orig_thumb][0];
                                     const url = thumbs[orig_thumb][1];
                                     console.log(`Creating thumb: ${url} -> ${thumb}`);
@@ -188,9 +237,10 @@ fs.readdirSync("software-thumbs").forEach( filename => {
                                               const writer = child_process.spawn(
                                                   '/bin/sh',[
                                                       '-c',
-                                                      `pdftoppm -f 1 -l 1 - | convert -resize ${width} - ${format}:-`,
+                                                      `pdftoppm -f ${fr.start_page} -l ${fr.start_page} - | convert -resize ${width} - ${format}:-`,
                                                   ]
                                               );
+                                              writer.stderr.on('data', data => console.error(`${data}`));
                                               writer.stdin.write(pdf);
                                               writer.stdin.end();
                                               let jpg = [];
