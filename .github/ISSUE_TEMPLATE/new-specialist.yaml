@@ -29,23 +29,23 @@ body:
     attributes:
       label: The organisation's preferred name
       placeholder: Teasdale Associates
-    validations:
-      required: true
   - type: input
     id: description
     attributes:
       label: Description
       placeholder: Teasdale Associates treats sleeping disorders in North Freedonia
-    validations:
-      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: The organisation's front page
+      placeholder: https://www.teasdale.fd/
   - type: input
     id: contact
     attributes:
       label: Administrative Contact
       description: How would we contact the organisation about changes to the site?
       placeholder: E-mail admin@teasdale.fd
-    validations:
-      required: true
   - type: checkboxes
     id: referrals
     attributes:
@@ -94,8 +94,6 @@ body:
         Other offices
         234 Chicolini Drive, Capital City, Freedonia
         345 High Street, Capital City, Freedonia
-    validations:
-      required: true
 
   - type: markdown
     attributes:
@@ -111,13 +109,31 @@ body:
     id: procedure
     attributes:
       label: Journey
-      placeholder: |
-        1. book an appointment at https://www.teasdale.fd/appointment
-        2. visit us at one of the specified locations
-        3. you may be asked to fill out a sleep diary like one of those shown
-        4. your doctor will aim to diagnose your condition
-    validations:
-      required: true
+      default: |
+        This is usually something like:
+        1. how to book an appointment
+        2. anything you need to do before your appointment
+        3. how to attend an appointment
+        4. anything you need to do between appointments
+        5. intended outcome
+
+        Here are some examples - copy/paste this text if possible:
+
+        1. [register as a patient](https://www.example.com/register)
+        1. [make an appointment](https://www.example.com/appointment)
+        1. a physician will refer you if they feel it is necessary
+        1. a physician will refer you if they feel it is necessary.  If no physician referral is available, [make an appointment directly](http://www.example.com/appointment)
+
+        2. you may be asked to fill out [a patient questionnaire](https://www.example.com/questionnaire)
+
+        3. appointments can be at one of the specified locations, by phone, or by video chat
+        3. visit one of the specified locations
+
+        4. you may be asked to fill out a sleep diary like the one shown
+        4. you may be asked to fill out a sleep diary like one of those shown
+
+        5. your doctor will aim to diagnose your condition, may be able to offer treatment for a common condition (such as [DSPD](https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder)), or may refer you to someone who specialises in a rare condition (such as [non-24](https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder))
+        5. your doctor will aim to diagnose your condition, and may be able to offer treatment
 
   - type: markdown
     attributes:
@@ -138,6 +154,7 @@ body:
       label: Status of these files
       options:
         - This does not include any forms or reports
+        - This only includes forms that are publicly available on the organisation's website
         - I own the copyright for any forms and reports, and I hereby give permission for them to be used
         - I have received permission to make these forms available, which they will confirm when contacted
         - I am providing preliminary information, the organisation will provide a final version after reviewing a complete proposal
