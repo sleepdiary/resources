@@ -255,3 +255,95 @@
         Chapel Hill,
         NC 27517
       GPS co-ordinates: 35.904673699064354, -79.01186058561848
+-
+  name: The Johns Hopkins Sleep Disorders Center
+  last updated: 2022-04-04
+  url: https://www.hopkinsmedicine.org/pulmonary/patient-care/sleep-medicine.html
+  specialist type: physician
+  blurb: Treats conditions such as insomnia, sleep apnea, circadian rhythm disorders, narcolepsy, and restless leg syndrome.
+  procedure type: researched
+  procedure: |
+    1. [schedule an appointment](https://www.hopkinsmedicine.org/howard_county_general_hospital/services/diagnostics_testing/sleep_center/sleep_center_appt.html) at the Center for Sleep and Wellness, or a physician refers you to the Sleep Disorders Center
+    2. you may be asked to fill out a sleep diary like one of those shown
+    3. visit one of the specified locations
+    4. your doctor will aim to diagnose your condition, and may be able to offer treatment
+  locations:
+    -
+      name: "Bayview Medical Center: Sleep Clinic"
+      url: https://www.hopkinsmedicine.org/johns_hopkins_bayview/_docs/planning_your_visit/jhbmc-campus-map.pdf
+      address: |
+        Second Floor
+        Asthma and Allergy Building
+        5501 Hopkins Bayview Circle
+        Baltimore, MD 21224
+      GPS co-ordinates: 39.289540445574914, -76.54892399918245
+      referral type: secondary
+    -
+      name: "Bayview Medical Center: Sleep Lab"
+      url: https://www.hopkinsmedicine.org/johns_hopkins_bayview/_docs/planning_your_visit/jhbmc-campus-map.pdf
+      address: |
+        Fourth Floor
+        Asthma and Allergy Building
+        5501 Hopkins Bayview Circle
+        Baltimore, MD 21224
+      GPS co-ordinates: 39.289540445574914, -76.54892399918245
+      referral type: secondary
+    -
+      name: Center for Sleep and Wellness
+      url: https://www.hopkinsmedicine.org/howard_county_general_hospital/services/diagnostics_testing/sleep_center/
+      address: |
+        11085 Little Patuxent Parkway, Suite 210
+        Medical Arts Building
+        Columbia, MD 21044
+      GPS co-ordinates: 39.21410769705409, -76.88474835693953
+      referral type: direct
+  forms:
+     -
+       name: Sleep Survey
+       layout: calendar
+       sharing status: found online
+       find this by: |
+         1. Go to https://www.hopkinsmedicine.org/pulmonary/patient-care/sleep-medicine.html
+         2. Click the "Sleep Survey" link in the middle of the page
+           * the "Sleep survey" link near the end of the page is an unrelated questionnaire
+       page duration: 13 days
+       start page: 6
+       total pages: 1
+       start time: Noon
+       in-bed marker: (none)
+       out-of-bed marker: (none)
+       sleep marker: "&#x1FB98;" # Upper Left to Lower Right Fill
+       gallery:
+         -
+           thumb: /resources/thumbs/The Johns Hopkins Sleep Disorders Center/The Johns Hopkins Sleep-Wake Diary.jpg
+           url: https://www.hopkinsmedicine.org/pulmonary/patient-care/_docs/johns-hopkins-sleep-survey.pdf
+     -
+        name: Two week sleep diary
+        layout: calendar
+        sharing status: found online
+        find this by: |
+          1. Go to https://www.hopkinsmedicine.org/pulmonary/patient-care/sleep-medicine.html
+          2. Click the "Sleep log" link near the end of the page
+        page duration: 2 weeks
+        total pages: 1
+        start time: Noon
+        in-bed marker: "&#x7c;"
+        out-of-bed marker: (none)
+        sleep marker: ▬
+        gallery:
+          -
+            thumb: /resources/thumbs/The Johns Hopkins Sleep Disorders Center/Two week sleep diary.jpg
+            url: https://www.hopkinsmedicine.org/johns_hopkins_bayview/_docs/medical_services/sleep_disorders_center/sleeplog.pdf
+        events:
+          -
+            key: C
+            value: coffee, cola or tea
+          -
+            key: M
+            value: medicine
+          -
+            key: A
+            value: alcohol
+          -
+            key: E
+            value: exercise
