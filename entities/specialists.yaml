@@ -347,3 +347,108 @@
           -
             key: E
             value: exercise
+-
+  name: NorthShore Sleep Center
+  last updated: 2022-04-09
+  url: https://www.northshore.org/sleep-center/
+  specialist type: physician
+  description: Offers state-of-the-art, comprehensive care for patients suffering from disorders including sleep apnea, restless legs syndrome, night terrors, snoring, insomnia and narcolepsy.
+  referral type: ["direct"]
+  procedure type: researched
+  procedure: |
+    1. [call their main office number](tel:847.663.8200) to book an appointment, or [schedule an appointment](https://www.northshore.org/OpenScheduling/PhysicianDirectSchedule.aspx?pid=7374) with [Richard John Munson, M.D.](https://www.northshore.org/apps/findadoctor/physicians/richard-john-munson)
+    3. you may be asked to fill out some of [their patient forms](https://www.northshore.org/sleep-center/patients/)
+    4. visit one of the specified locations
+    5. you may be referred for an outpatient sleep study at a [sleep lab](https://www.northshore.org/sleep-center/#sleep-center)
+    6. your doctor will aim to diagnose your condition, may be able to offer treatment for a common condition (such as [DSPD](https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder)), or may refer you to someone who specialises in a rare condition (such as [non-24](https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder))
+  locations:
+    -
+      name: Old Orchard Sleep Center
+      address: |
+        9977 Woods Drive
+        Skokie,
+        IL 60077
+      GPS co-ordinates: 42.061500035075575, -87.76042044195773
+    -
+      name: Bannockburn Sleep Center
+      tel: 847.236.1300
+      fax: 847.236.9637
+      address: |
+        2151 Waukegan Road
+        Bannockburn,
+        IL 60015
+      GPS co-ordinates: 42.192501074063905, -87.85818768489362
+    -
+      name: Evanston Hospital
+      url: https://www.northshore.org/locations/our-hospitals/evanston-hospital/
+      tel: 847.570.2000
+      address: |
+        2650 Ridge Avenue,
+        Evanston,
+        IL 60201
+      GPS co-ordinates: 42.06573038320172, -87.68442312438462
+    -
+      name: Glenbrook Hospital
+      tel: 847.657.5800
+      address: |
+        2100 Pfingsten Road,
+        Glenview
+        IL 60026
+      GPS co-ordinates: 42.092992193320626, -87.85421200035263
+    -
+      name: Gurnee Medical Office Building
+      tel: 847.236.1300
+      fax: 847.236.9637
+      address: |
+        7900 Rollins Rd.
+        Suite B1300
+        Gurnee,
+        IL 60031
+      GPS co-ordinates: 42.384974224740624, -87.99647169737688
+    -
+      name: Highland Park Hospital
+      url: https://www.northshore.org/locations/our-hospitals/highland-park-hospital/
+      tel: 847.432.8000
+      address: |
+        777 Park Avenue West,
+        Highland Park,
+        IL 60035
+      GPS co-ordinates: 42.19142955063223, -87.8084486035028
+    -
+      name: Lincolnshire Medical Group Office building
+      tel: 847.663.8200
+      fax: 847.570.2984
+      address: |
+        920 Milwaukee Ave.
+        Suite 2100
+        Lincolnshire,
+        IL 60069
+      GPS co-ordinates: 42.183534386843206, -87.92753459645732
+    -
+      name: Skokie Hospital
+      url: https://www.northshore.org/locations/our-hospitals/skokie-hospital/
+      tel: 847.677.9600
+      address: |
+        9600 Gross Point Road,
+        Skokie,
+        IL 60076
+      GPS co-ordinates: 42.05672098158611, -87.74040640008995
+  forms:
+   -
+     name: Two Week Sleep Log
+     layout: calendar
+     sharing status: found online
+     find this by: |
+       1. Go to https://www.northshore.org/sleep-center/
+       2. Click on "Patient Forms" in the left menu
+       3. Click on "Two Week Sleep Log"
+     page duration: 14 days
+     total pages: 1
+     start time: 6pm
+     in-bed marker: "&darr;"
+     out-of-bed marker: "&uarr;"
+     sleep marker: ▬
+     gallery:
+       -
+         thumb: /resources/thumbs/NorthShore Sleep Center.jpg
+         url: https://www.northshore.org/globalassets/sleepcenter/2weeksleeplog.pdf
