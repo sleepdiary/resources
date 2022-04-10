@@ -9,7 +9,7 @@
   business model: Free (open source)
   platforms:
     - website
-  blurb: |
+  description: |
     The project this page belongs to.
   procedure: |
     * [examine your diary through the dashboard](/dashboard)
@@ -83,7 +83,7 @@
   business model: Free (open source)
   platforms:
     - android
-  blurb: |
+  description: |
     A simple sleep tracker for Android phones.
   procedure: |
     1. [download for Android](https://f-droid.org/en/packages/hu.vmiklos.plees_tracker/)
@@ -141,7 +141,7 @@
   business model: Paid app with free trial
   platforms:
     - android
-  blurb: |
+  description: |
     An alarm clock and sleep cycle tracker for Android phones.
   procedure: |
     1. [download trial version for Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep&hl=en_GB&gl=US)
@@ -157,7 +157,7 @@
   business model: Ad-supported
   platforms:
     - android
-  blurb: |
+  description: |
     A closed source Android application for tracking sleep habits.
   procedure: |
     1. [download the APK](https://m.apkpure.com/sleepmeter-free/com.squalllinesoftware.android.applications.sleepmeter.free)
@@ -200,7 +200,7 @@
   business model: Free
   platforms:
     - windows
-  blurb: |
+  description: |
     A sleep logging application from the early 2000's.
   procedure: |
     1. [download the zip file](http://www.supermemo.org/ftp/sleepchart.zip)
@@ -289,7 +289,7 @@
   business model: Free (closed source)
   platforms:
     - website
-  blurb: |
+  description: |
     A free tool that generates sleep charts from CSV files.
   procedure: |
     1. [go to the site](https://sleepcharter.z13.web.core.windows.net/)
@@ -334,7 +334,7 @@
     - website
     - ios
     - android
-  blurb: |
+  description: |
     A range of devices for tracking fitness and other statistics
   procedure: |
     1. buy a Fitbit device
