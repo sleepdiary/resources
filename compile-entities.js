@@ -206,7 +206,7 @@ fs.cpSync(`software-thumbs`, `thumbs`, {recursive:true});
                     }
 
                     let thumbs = {};
-                    if ( fr.thumb ) thumbs[fr.thumb] = [ 200, fr.url ];
+                    if ( fr.thumb ) thumbs[fr.thumb] = [ 150, fr.url ];
                     fr.gallery.forEach( image => {
                         if ( fr.start_page != 1 && image.url.search(/#/) == -1 ) {
                             image.url += `#page=${fr.start_page}`
