@@ -5,7 +5,7 @@
   last updated: 2022-03-21
   url: https://sleepdoc.com/
   specialist type: physician
-  blurb: "[The Center for Sleep & Wake Disorders](https://sleepdoc.com/) is an accredited full service sleep center."
+  description: "[The Center for Sleep & Wake Disorders](https://sleepdoc.com/) is an accredited full service sleep center."
   referral type: direct
   procedure type: researched
   procedure: |
@@ -84,7 +84,7 @@
   last updated: 2022-03-21
   url: http://www.orlandosleep.com/
   specialist type: physician
-  blurb: "[Dr. Karen M. Baker](http://www.orlandosleep.com/) is a medical director of the Center for Sleep Disorders."
+  description: "[Dr. Karen M. Baker](http://www.orlandosleep.com/) is a medical director of the Center for Sleep Disorders."
   referral type: secondary
   procedure type: researched
   procedure: |
@@ -162,7 +162,7 @@
   last updated: 2022-03-21
   url: https://www.raleighneurology.com/about-us/who-we-are/
   specialist type: physician
-  blurb: "[Raleigh Neurology Associates](https://www.raleighneurology.com/about-us/who-we-are/) provide a [Sleep Medicine Program](https://www.raleighneurology.com/specialties-services/sleep-medicine/) among many other services."
+  description: "[Raleigh Neurology Associates](https://www.raleighneurology.com/about-us/who-we-are/) provide a [Sleep Medicine Program](https://www.raleighneurology.com/specialties-services/sleep-medicine/) among many other services."
   referral type: direct
   procedure type: confirmed
   procedure: |
@@ -213,7 +213,7 @@
   last updated: 2022-03-21
   url: https://sleepsupportproject.org/about/
   specialist type: physician
-  blurb: |
+  description: |
     [The Sleep Support Project](https://sleepsupportproject.org/about/) are qualified BACP Registered counsellors.  Their [downloadable sleep diary](https://sleepsupportproject.org/sleep-diary-2/) is only available to members.
   referral type: direct
   procedure type: researched
@@ -235,7 +235,7 @@
   last updated: 2022-03-23
   url: https://www.med.unc.edu/neurology/divisions/sleep-1/
   specialist type: physician
-  blurb: |
+  description: |
     [UNC Health](https://www.unchealthcare.org/) is a not-for-profit integrated health care system owned by the state of North Carolina.  [The Sleep Disorders Center](https://www.uncmedicalcenter.org/uncmc/care-treatment/neurology/sleep-disorders/) provides care to patients who have a wide range of sleep-related disorders.
   referral type: secondary
   procedure type: confirmed
@@ -260,7 +260,7 @@
   last updated: 2022-04-04
   url: https://www.hopkinsmedicine.org/pulmonary/patient-care/sleep-medicine.html
   specialist type: physician
-  blurb: Treats conditions such as insomnia, sleep apnea, circadian rhythm disorders, narcolepsy, and restless leg syndrome.
+  description: Treats conditions such as insomnia, sleep apnea, circadian rhythm disorders, narcolepsy, and restless leg syndrome.
   procedure type: researched
   procedure: |
     1. [schedule an appointment](https://www.hopkinsmedicine.org/howard_county_general_hospital/services/diagnostics_testing/sleep_center/sleep_center_appt.html) at the Center for Sleep and Wellness, or a physician refers you to the Sleep Disorders Center
