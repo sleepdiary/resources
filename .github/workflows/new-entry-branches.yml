@@ -39,8 +39,10 @@ jobs:
                     const entry = JSON.parse(text);
                     let todo_list = '';
 
-                    entry.id = new Date().getTime().toString();
-                    entry.last_updated = new Date().toISOString().split("T")[0];
+                    const now = new Date();
+
+                    entry.id = now.getTime().toString();
+                    entry.last_updated = now.toISOString().split("T")[0];
 
                     [ 'forms', 'reports' ].forEach(
                         fr => entry[fr].forEach( (doc,n) => {
@@ -105,7 +107,7 @@ jobs:
                             .replace( /\n*$/, "\n" )
                     );
 
-                    const filename = `entities/${entity_type}/${Math.floor(new Date().getTime()/1000)}-${entry.name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.json`;
+                    const filename = `entities/${entity_type}/${now.getTime()}-${entry.name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.json`;
                     fs.writeFileSync(filename, entry_text);
 
                     const spawnSync = require("child_process").spawnSync;
