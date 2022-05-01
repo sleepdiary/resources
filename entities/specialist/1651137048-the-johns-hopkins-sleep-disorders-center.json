@@ -12,8 +12,8 @@
           "url": "https://www.hopkinsmedicine.org/pulmonary/patient-care/_docs/johns-hopkins-sleep-survey.pdf"
         }
       ],
-      "before_first": "used_maybe",
-      "between_appointments": "unused",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
       "inbed_marker": "(none)",
       "layout": "calendar",
       "name": "Sleep Survey",
@@ -51,8 +51,8 @@
           "url": "https://www.hopkinsmedicine.org/johns_hopkins_bayview/_docs/medical_services/sleep_disorders_center/sleeplog.pdf"
         }
       ],
-      "before_first": "used_maybe",
-      "between_appointments": "unused",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
       "inbed_marker": "&#x7c;",
       "layout": "calendar",
       "name": "Two week sleep diary",

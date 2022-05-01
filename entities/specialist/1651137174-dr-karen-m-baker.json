@@ -30,8 +30,8 @@
           "url": "http://www.orlandosleep.com/forms/sleepdiary_v2.pdf"
         }
       ],
-      "before_first": "used_maybe",
-      "between_appointments": "unused",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
       "name": "Two week sleep diary",
       "inbed_marker": "&#x7c;",
       "layout": "calendar",

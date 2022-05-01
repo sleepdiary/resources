@@ -30,8 +30,8 @@
           "url": "https://sleepdoc.com/wp-content/uploads/2019/10/sleep_log.pdf"
         }
       ],
-      "before_first": "used_maybe",
-      "between_appointments": "unused",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
       "inbed_marker": "○",
       "layout": "calendar",
       "name": "Adult sleep diary",
@@ -69,8 +69,8 @@
           "url": "https://sleepdoc.com/wp-content/uploads/2019/10/Sleep-log-adolescent.pdf"
         }
       ],
-      "before_first": "used_maybe",
-      "between_appointments": "unused",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
       "inbed_marker": "○",
       "layout": "calendar",
       "name": "Adolescent sleep diary",
