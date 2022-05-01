@@ -12,8 +12,8 @@
         }
       ],
       "name": "Sleep Chart",
-      "before_first": "unused",
-      "between_appointments": "used_maybe",
+      "use_before_first": "no",
+      "use_between_appointments": "maybe",
       "inbed_marker": "&darr;",
       "layout": "calendar",
       "outofbed_marker": "&uarr;",
