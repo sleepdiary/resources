@@ -194,7 +194,7 @@ readline
                                     image.url += `#page=${fr.start_page}`
                                 }
                                 thumbs[image.thumb] = [ 150, image.url ];
-                                image.url = image.url.replace( / /g, '+' );
+                                image.url = image.url.replace( / /g, '%20' );
                                 if ( !fr.url   ) fr.url   = image.url  ;
                                 if ( !fr.thumb ) fr.thumb = image.thumb;
 
