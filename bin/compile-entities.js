@@ -7,6 +7,8 @@ const http  = require('http');
 const https = require('https');
 const url   = require('url');
 
+const base_dir = __filename.replace(/[^\/]+\/[^\/]*$/,'');
+
 const output = {
     format      : 'https://sleepdiary.github.io/resources/entities#version-001',
     specialist  : { records: [] },
@@ -213,7 +215,7 @@ readline
                                 orig_thumb => orig_thumb.replace(
                                     /^\/resources\/(thumbs\/.*)/,
                                     async (_,thumb) => {
-                                        thumb = __filename.replace(/[^\/]+\/[^\/]*$/,thumb);
+                                        thumb = base_dir + thumb;
                                         if ( !fs.existsSync(thumb) ) {
                                             const thumb_dir = thumb.replace(/\/[^/]*$/,'');
                                             if ( !fs.existsSync(thumb_dir) ) fs.mkdirSync(thumb_dir);
@@ -243,9 +245,7 @@ readline
                                             if ( !url.search(/^\/resources\//) ) { // local file
                                                 url.replace(
                                                     /^\/resources\/(.*)/,
-                                                    (_,source) => create_thumb(fs.readFileSync(
-                                                        __filename.replace(/[^\/]*$/,source)
-                                                    ))
+                                                    (_,source) => create_thumb(fs.readFileSync(base_dir+source))
                                                 );
                                             } else {
                                                 ( url.search(/^https:/) ? http : https )
