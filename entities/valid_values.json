@@ -1,0 +1,44 @@
+{
+  "appointment_types": {
+    "in-person": "an appointment at a location above at an agreed time",
+    "by-phone": "an appointment over the telephone",
+    "by-voip": "an appointment online in real-time (e.g. over Skype or Zoom)",
+    "by-email": "an appointment online but not in real-time (e.g. e-mail or a web portal)",
+    "other": "an appointment conducted some other way"
+  },
+  "outcomes": {
+    "diagnose": "the specialist will aim to diagnose the individual's condition",
+    "treat": "the specialist will aim to offer treatment",
+    "refer": "the specialist may refer the individual to a specialist for a rare condition",
+    "explain": "the specialist will explain relevant research outcomes when possible",
+    "other": "the specialist will produce some other outcome"
+  },
+  "procedure_type": {
+    "researched": "the \"procedure\" data has been researched by us (e.g. by reading the website)",
+    "confirmed": "the \"procedure\" data has been confirmed by someone with direct experience (e.g. a doctor or patient)"
+  },
+  "referral_types": {
+    "direct": "a specialist who accepts referrals directly from members of the public",
+    "secondary": "a specialist who accepts referrals from any doctor (e.g. a general practitioner or primary care physician)",
+    "tertiary": "a specialist who accepts referrals from other sleep specialists"
+  },
+  "sharing_status": {
+    "found online": "can be found on the on the specialist's website",
+    "shared with consent": "a blank example the specialist has consented to put online",
+    "private": "a document containing personal information, or which the organisation has not yet made public"
+  },
+  "specialist_type": {
+    "physician": "a medical doctor who treats sleep disorders",
+    "researcher": "an academic who studies sleep disorders"
+  },
+  "use_before_first": {
+    "no": "will not be used before the first appointment",
+    "maybe": "may be used before the first appointment",
+    "yes": "will be used before the first appointment"
+  },
+  "use_between_appointments": {
+    "no": "will not be used between appointments",
+    "maybe": "may be used between appointments",
+    "yes": "will be used between appointments"
+  }
+}

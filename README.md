@@ -2,13 +2,13 @@
 
 ## Entities
 
-A JSON file containing information about sleep-related entities (e.g. sleep specialists), generated from a collection of YAML files.
+A JSON file containing information about sleep-related entities (e.g. sleep specialists), generated from a collection of files.
 
 - [Get the JSON file](entities.json)
-- [View the raw specialist data](https://github.com/andrew-sayers/resources/blob/main/entities/specialists.yaml)
-- [View the raw software data](https://github.com/andrew-sayers/resources/blob/main/entities/software.yaml)
+- [View the raw specialist data](https://github.com/andrew-sayers/resources/blob/main/entities/specialist)
+- [View the raw software data](https://github.com/andrew-sayers/resources/blob/main/entities/software)
 
-The JSON file includes some convenience values derived from the raw YAML data.  [See the processing script](https://github.com/andrew-sayers/resources/blob/main/compile-entities.js) for details.
+Please see [the specification](entities) for more information about the contents of [entities.json](entities.json).
 
 ### See also
 
