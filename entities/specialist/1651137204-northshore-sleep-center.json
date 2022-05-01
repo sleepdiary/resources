@@ -12,8 +12,8 @@
           "url": "https://www.northshore.org/globalassets/sleepcenter/2weeksleeplog.pdf"
         }
       ],
-      "before_first": "used_maybe",
-      "between_appointments": "unused",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
       "inbed_marker": "&darr;",
       "layout": "calendar",
       "name": "Two Week Sleep Log",
