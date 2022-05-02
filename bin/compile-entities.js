@@ -201,7 +201,7 @@ readline
                                 if ( !fr.thumb ) fr.thumb = image.thumb;
 
                                 if ( image.name ) {
-                                    image.display_name = ( has_multiple_galleries ? fr.short_name + ': ' : '' ) + ': ' + image.name;
+                                    image.display_name = ( has_multiple_galleries ? fr.short_name + ': ' : '' ) + image.name;
                                     image.short_name   = image.name;
                                 } else {
                                     image.display_name = fr.display_name;
