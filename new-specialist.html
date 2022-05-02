@@ -972,8 +972,8 @@
             </v-app>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.js"></script>
         <script>
         "use strict";
         new Vue({
@@ -1193,7 +1193,7 @@
                   },
                   shared_with_consent = this.docs.filter( doc => doc.sharing_status == 'shared with consent' ).length,
                   shared_private      = this.docs.filter( doc => doc.sharing_status == 'private'             ).length,
-                  preamble = `I would like to add an entry to [\`specialist.json\`](../blob/main/entities/specialist.json) for an organisation I ${relationship[this.relationship]||"have not yet specified my relationship with"}.  ${involvement[this.involvement]||'I have not yet specified how the organisation is involved'}.\n\n`
+                  preamble = `I would like to add an entry to [the list of specialists](../blob/main/entities/specialist) for an organisation I ${relationship[this.relationship]||"have not yet specified my relationship with"}.  ${involvement[this.involvement]||'I have not yet specified how the organisation is involved'}.\n\n`
               ;
               if ( shared_with_consent ) {
                 preamble += "I have attached ";
