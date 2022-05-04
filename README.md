@@ -5,8 +5,8 @@
 A JSON file containing information about sleep-related entities (e.g. sleep specialists), generated from a collection of files.
 
 - [Get the JSON file](entities.json)
-- [View the raw specialist data](https://github.com/andrew-sayers/resources/blob/main/entities/specialist)
-- [View the raw software data](https://github.com/andrew-sayers/resources/blob/main/entities/software)
+- [View the raw specialist data](https://github.com/sleepdiary/resources/blob/main/entities/specialist)
+- [View the raw software data](https://github.com/sleepdiary/resources/blob/main/entities/software)
 
 Please see [the specification](entities) for more information about the contents of [entities.json](entities.json).
 
