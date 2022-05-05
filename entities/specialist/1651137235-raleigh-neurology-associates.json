@@ -57,7 +57,7 @@
   "booking_fax": "",
   "booking_other": "To get access to their telehealth site, contact them by phone and ask for a telehealth account.\nWhen booking, you can ask to see your preferred doctor.  [Dr. Thomas Kirk, MD](https://www.raleighneurology.com/about-us/meet-our-physicians/thomas-kirk-md/) sees patients with any sleep concern, [Dr. Thomas Perkins, MD, PhD](https://www.raleighneurology.com/about-us/meet-our-physicians/thomas-perkins-md-phd/) specialises in circadian rhythm disorders, while [their other physicians](https://www.raleighneurology.com/about-us/meet-our-physicians/) have other specialisms.",
   "before_first": "",
-  "between_appointments": "You may be asked to fill out a sleep diary like the one shown.",
+  "between_appointments": "",
   "outcomes": [
     "diagnose",
     "treat",
