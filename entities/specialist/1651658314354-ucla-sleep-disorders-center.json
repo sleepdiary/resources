@@ -1,6 +1,6 @@
 {
   "name": "UCLA Sleep Disorders Center",
-  "description": "researches the conditions that result in sleep disturbances and treatments to overcome and prevent them",
+  "description": "Researches conditions that result in sleep disturbances and treatments to overcome and prevent them.",
   "url": "https://www.uclahealth.org/sleepcenter/",
   "admin_contact": "",
   "specialist_type": "physician",
@@ -17,7 +17,7 @@
   "booking_tel": "310-26-SLEEP",
   "booking_fax": "(310) 267-1062",
   "booking_other": "",
-  "before_first": "see [Preparing for Your Visit](https://www.uclahealth.org/sleepcenter/preparing-for-your-visit).",
+  "before_first": "see [Preparing for Your Visit](https://www.uclahealth.org/sleepcenter/preparing-for-your-visit)",
   "between_appointments": "",
   "outcomes": [
     "diagnose",
@@ -39,39 +39,19 @@
     {
       "sharing_status": "found online",
       "instructions_to_find": "1. Go to https://www.uclahealth.org/sleepcenter/preparing-for-your-visit\n2. Click _Sleep Disorders Center ADULT Questionnaire_",
-      "name": "Sleep Disorders Center ADULT Questionnaire",
+      "name": "Sleep Disorders Center Adult Questionnaire",
       "use_before_first": "yes",
       "use_between_appointments": "no",
       "gallery": [
         {
-          "thumb": "/resources/thumbs/Sleep Disorders Center ADULT Questionnaire.jpg",
+          "thumb": "/resources/thumbs/Sleep Disorders Center Adult Questionnaire.jpg",
           "url": "https://www.uclahealth.org/sleepcenter/workfiles/forms/Adult%20Information.Questionnaire.pdf"
         }
       ],
-#        TODO: fill in the values below:
-#        "layout": "calendar", # or "graph" or "questionnaire"
-#        "start_page": 1, # or the index of the relevant page in the PDF
-#        "total_pages": # e.g. 1 or "variable"
-#        "page_duration": # how blocks are separated, e.g. "14 days" or "2 weeks"
-#        "start_time": # e.g. "Noon" or "6pm"
-#        "inbed_marker": # e.g. "&darr;" or "(none)"
-#        "outofbed_marker": # e.g. "&uarr;" or "(none)"
-#        "sleep_marker": # e.g. ▬ or ▮
-#        "events": [
-#          {
-#            "key": # e.g. "C"
-#            "value": # e.g. "coffee, cola, or tea"
-#          },
-#          ...
-#         ],
-#         "modifiers": [
-#           {
-#             "component": "bar",
-#             "colour": "", # e.g. "green"
-#             "description": "" # e.g. "delayed retirement"
-#           },
-#           ...
-#         ]
+      "layout": "questionnaire",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "7 days"
     },
     {
       "sharing_status": "found online",
@@ -85,30 +65,20 @@
           "url": "http://sleepeducation.org/wp-content/uploads/2021/04/sleep-diary-form.pdf"
         }
       ],
-#        TODO: fill in the values below:
-#        "layout": "calendar", # or "graph" or "questionnaire"
-#        "start_page": 1, # or the index of the relevant page in the PDF
-#        "total_pages": # e.g. 1 or "variable"
-#        "page_duration": # how blocks are separated, e.g. "14 days" or "2 weeks"
-#        "start_time": # e.g. "Noon" or "6pm"
-#        "inbed_marker": # e.g. "&darr;" or "(none)"
-#        "outofbed_marker": # e.g. "&uarr;" or "(none)"
-#        "sleep_marker": # e.g. ▬ or ▮
-#        "events": [
-#          {
-#            "key": # e.g. "C"
-#            "value": # e.g. "coffee, cola, or tea"
-#          },
-#          ...
-#         ],
-#         "modifiers": [
-#           {
-#             "component": "bar",
-#             "colour": "", # e.g. "green"
-#             "description": "" # e.g. "delayed retirement"
-#           },
-#           ...
-#         ]
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Midnight",
+      "inbed_marker": "B",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "Z",
+      "events": [
+        { "key": "C", "value": "coffee, cola or tea" },
+        { "key": "M", "value": "medicine" },
+        { "key": "A", "value": "alcohol" },
+        { "key": "E", "value": "exercise" }
+       ]
     }
   ],
   "reports": [],
