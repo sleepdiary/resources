@@ -2,7 +2,7 @@
   "id": "1651395455865",
   "name": "The Sleep Support Project",
   "admin_contact": "",
-  "description": "[The Sleep Support Project](https://sleepsupportproject.org/about/) are qualified BACP Registered counsellors.  Their [downloadable sleep diary](https://sleepsupportproject.org/sleep-diary-2/) is only available to members.\n",
+  "description": "Qualified BACP Registered counsellors.\n",
   "last_updated": "2022-03-21",
   "locations": [
     {
@@ -22,7 +22,7 @@
   "booking_tel": "",
   "booking_fax": "",
   "booking_other": "see also [their page about booking sessions](https://sleepsupportproject.org/support/book-sessions/)",
-  "before_first": "you may be asked to fill out a sleep diary like [the one on their site](https://sleepsupportproject.org/sleep-diary-2/).",
+  "before_first": "you may be asked to fill out a sleep diary like [the one on their site](https://sleepsupportproject.org/sleep-diary-2/) (only available to members).",
   "between_appointments": "",
   "outcomes": [
     "diagnose",
