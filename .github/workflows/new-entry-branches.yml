@@ -78,30 +78,31 @@ jobs:
                             )
                             .replace(
                                 /.*\uE001.*/g,
-                                `#        TODO: fill in the values below:
-            #        "layout": "calendar", # or "graph" or "questionnaire"
-            #        "start_page": 1, # or the index of the relevant page in the PDF
-            #        "total_pages": # e.g. 1 or "variable"
-            #        "page_duration": # how blocks are separated, e.g. "14 days" or "2 weeks"
-            #        "start_time": # e.g. "Noon" or "6pm"
-            #        "inbed_marker": # e.g. "&darr;" or "(none)"
-            #        "outofbed_marker": # e.g. "&uarr;" or "(none)"
-            #        "sleep_marker": # e.g. ▬ or ▮
-            #        "events": [
-            #          {
-            #            "key": # e.g. "C"
-            #            "value": # e.g. "coffee, cola, or tea"
-            #          },
-            #          ...
-            #         ],
-            #         "modifiers": [
-            #           {
-            #             "component": "bar",
-            #             "colour": "", # e.g. "green"
-            #             "description": "" # e.g. "delayed retirement"
-            #           },
-            #           ...
-            #         ]`
+                                `#      TODO: fill in the values below:
+            #      "layout": "calendar", # or "graph" or "questionnaire"
+            #      "start_page": 1, # or the index of the relevant page in the PDF
+            #      "total_pages": # e.g. 1 or "variable"
+            #      "page_duration": # how blocks are separated, e.g. "14 days" or "2 weeks"
+            #      NOTE: the following are only required for calendars:
+            #      "start_time": # e.g. "Noon" or "6pm"
+            #      "inbed_marker": # e.g. "&darr;" or "(none)"
+            #      "outofbed_marker": # e.g. "&uarr;" or "(none)"
+            #      "sleep_marker": # e.g. ▬ or ▮
+            #      "events": [
+            #        {
+            #          "key": # e.g. "C"
+            #          "value": # e.g. "coffee, cola, or tea"
+            #        },
+            #        ...
+            #       ],
+            #       "modifiers": [
+            #         {
+            #           "component": "bar",
+            #           "colour": "", # e.g. "green"
+            #           "description": "" # e.g. "delayed retirement"
+            #         },
+            #         ...
+            #       ]`
                             )
                             .replace(
                                 /.*\uE003.*/g,

@@ -83,7 +83,7 @@
   "forms": [
     {
       "instructions_to_find": "https://www.sleepmedcenter.com/patient-information/ > click \"Adult Questionnaire and Consent Form\"",
-      "name": "SLEEP SYMPTOM AND MEDICAL QUESTIONNAIRE, page 5",
+      "name": "Sleep Symptom And Medical Questionnaire",
       "sharing_status": "found online",
       "use_before_first": "maybe",
       "use_between_appointments": "no",
@@ -100,7 +100,7 @@
     },
     {
       "instructions_to_find": "https://www.sleepmedcenter.com/patient-information/ > click \"Adult Insomnia Questionnaire and Consent Form\"",
-      "name": "Behavioral Sleep Medicine Program: Initial Evaluation Questionnaire, page 2",
+      "name": "Behavioral Sleep Medicine Program: Initial Evaluation Questionnaire",
       "sharing_status": "found online",
       "use_before_first": "maybe",
       "use_between_appointments": "no",

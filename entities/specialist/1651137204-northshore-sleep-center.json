@@ -115,8 +115,8 @@
   "booking_tel": "847.663.8200",
   "booking_fax": "",
   "booking_other": "[Richard John Munson, M.D.](https://www.northshore.org/apps/findadoctor/physicians/richard-john-munson) specialises in sleep-related conditions",
-  "before_first": "you may be asked to fill out some of [their patient forms](https://www.northshore.org/sleep-center/patients/)",
-  "between_appointments": "you may be referred for an outpatient sleep study at a [sleep lab](https://www.northshore.org/sleep-center/#sleep-center).",
+  "before_first": "you may also be asked to fill out some of [their patient forms](https://www.northshore.org/sleep-center/patients/)",
+  "between_appointments": "you may be referred for an outpatient sleep study at a [sleep lab](https://www.northshore.org/sleep-center/#sleep-center)",
   "outcomes": [
     "diagnose",
     "treat",
