@@ -1,0 +1,87 @@
+{
+  "name": "UCLA Sleep Disorders Center",
+  "description": "Researches conditions that result in sleep disturbances and treatments to overcome and prevent them.",
+  "url": "https://www.uclahealth.org/sleepcenter/",
+  "admin_contact": "",
+  "specialist_type": "physician",
+  "referral_types": [
+    "secondary",
+    "tertiary"
+  ],
+  "registration_required": false,
+  "appointment_types": [
+    "in-person"
+  ],
+  "booking_required": true,
+  "booking_url": "https://www.uclahealth.org/sleepcenter/contact-us",
+  "booking_tel": "310-26-SLEEP",
+  "booking_fax": "(310) 267-1062",
+  "booking_other": "",
+  "before_first": "see [Preparing for Your Visit](https://www.uclahealth.org/sleepcenter/preparing-for-your-visit)",
+  "between_appointments": "",
+  "outcomes": [
+    "diagnose",
+    "treat"
+  ],
+  "outcome_other": "",
+  "procedure_type": "researched",
+  "locations": [
+    {
+      "name": "UCLA Sleep Center",
+      "address": "Center for Health Sciences\n10833 Le Conte Ave, Suite 216\nLos Angeles CA 90095",
+      "gps": [
+        "34.066236599999996",
+        "-118.44311450552331"
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. Go to https://www.uclahealth.org/sleepcenter/preparing-for-your-visit\n2. Click _Sleep Disorders Center ADULT Questionnaire_",
+      "name": "Sleep Disorders Center Adult Questionnaire",
+      "use_before_first": "yes",
+      "use_between_appointments": "no",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Sleep Disorders Center Adult Questionnaire.jpg",
+          "url": "https://www.uclahealth.org/sleepcenter/workfiles/forms/Adult%20Information.Questionnaire.pdf"
+        }
+      ],
+      "layout": "questionnaire",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "7 days"
+    },
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. Go to https://www.uclahealth.org/sleepcenter/preparing-for-your-visit\n2. Click _Two week sleep diary_",
+      "name": "Two week sleep diary",
+      "use_before_first": "maybe",
+      "use_between_appointments": "no",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two week sleep diary.jpg",
+          "url": "http://sleepeducation.org/wp-content/uploads/2021/04/sleep-diary-form.pdf"
+        }
+      ],
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Midnight",
+      "inbed_marker": "B",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "Z",
+      "events": [
+        { "key": "C", "value": "coffee, cola or tea" },
+        { "key": "M", "value": "medicine" },
+        { "key": "A", "value": "alcohol" },
+        { "key": "E", "value": "exercise" }
+       ]
+    }
+  ],
+  "reports": [],
+  "id": "1651658314354",
+  "last_updated": "2022-05-04"
+}
