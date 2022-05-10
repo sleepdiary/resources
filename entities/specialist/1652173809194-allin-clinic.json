@@ -1,0 +1,83 @@
+{
+  "name": "Allin Clinic",
+  "description": "Providing care to Edmonton since 1946",
+  "url": "https://allinclinic.ca/",
+  "admin_contact": "",
+  "specialist_type": "physician",
+  "referral_types": [
+    "direct"
+  ],
+  "registration_required": false,
+  "appointment_types": [
+    "in-person"
+  ],
+  "booking_required": true,
+  "booking_url": "https://patient.medeohealth.com/booking/the-allin-clinic/",
+  "booking_tel": "",
+  "booking_fax": "",
+  "booking_other": "",
+  "before_first": "",
+  "between_appointments": "",
+  "outcomes": [
+    "diagnose",
+    "treat",
+    "refer"
+  ],
+  "outcome_other": "",
+  "procedure_type": "researched",
+  "locations": [
+    {
+      "name": "The Allin Clinic",
+      "address": "10155 120 Street\n2nd floor\nEdmonton, Alberta T5K 2A2",
+      "gps": [
+        "53.54277665",
+        "-113.52850984285715"
+      ],
+      "tel": "(780) 482-7551",
+      "fax": "(780) 488-2056"
+    }
+  ],
+  "forms": [
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Adult\"",
+      "name": "Two Week Sleep Diary Adult",
+      "use_before_first": "maybe",
+      "use_between_appointments": "maybe",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two Week Sleep Diary Adult.jpg",
+          "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Adult.pdf"
+        }
+      ],
+#      TODO: fill in the values below:
+#      "layout": "calendar", # or "graph" or "questionnaire"
+#      "start_page": 1, # or the index of the relevant page in the PDF
+#      "total_pages": # e.g. 1 or "variable"
+#      "page_duration": # how blocks are separated, e.g. "14 days" or "2 weeks"
+#      NOTE: the following are only required for calendars:
+#      "start_time": # e.g. "Noon" or "6pm"
+#      "inbed_marker": # e.g. "&darr;" or "(none)"
+#      "outofbed_marker": # e.g. "&uarr;" or "(none)"
+#      "sleep_marker": # e.g. ▬ or ▮
+#      "events": [
+#        {
+#          "key": # e.g. "C"
+#          "value": # e.g. "coffee, cola, or tea"
+#        },
+#        ...
+#       ],
+#       "modifiers": [
+#         {
+#           "component": "bar",
+#           "colour": "", # e.g. "green"
+#           "description": "" # e.g. "delayed retirement"
+#         },
+#         ...
+#       ]
+    }
+  ],
+  "reports": [],
+  "id": "1652173809194",
+  "last_updated": "2022-05-10"
+}
