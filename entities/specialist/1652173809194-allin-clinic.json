@@ -1,0 +1,190 @@
+{
+  "name": "Allin Clinic",
+  "description": "Providing care to Edmonton since 1946",
+  "url": "https://allinclinic.ca/",
+  "admin_contact": "",
+  "specialist_type": "physician",
+  "referral_types": [
+    "direct"
+  ],
+  "registration_required": false,
+  "appointment_types": [
+    "in-person"
+  ],
+  "booking_required": true,
+  "booking_url": "https://patient.medeohealth.com/booking/the-allin-clinic/",
+  "booking_tel": "",
+  "booking_fax": "",
+  "booking_other": "",
+  "before_first": "",
+  "between_appointments": "",
+  "outcomes": [
+    "diagnose",
+    "treat",
+    "refer"
+  ],
+  "outcome_other": "",
+  "procedure_type": "researched",
+  "locations": [
+    {
+      "name": "The Allin Clinic",
+      "address": "10155 120 Street\n2nd floor\nEdmonton, Alberta T5K 2A2",
+      "gps": [
+        "53.54277665",
+        "-113.52850984285715"
+      ],
+      "tel": "(780) 482-7551",
+      "fax": "(780) 488-2056"
+    }
+  ],
+  "forms": [
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Adult\"",
+      "name": "Two Week Sleep Diary (Adult)",
+      "use_before_first": "maybe",
+      "use_between_appointments": "maybe",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two Week Sleep Diary Adult.jpg",
+          "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Adult.pdf"
+        }
+      ],
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Noon",
+      "inbed_marker": "|",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "▬",
+      "events": [
+        {
+          "key": "C",
+          "value": "caffeine"
+        },
+        {
+          "key": "M",
+          "value": "medicine"
+        },
+        {
+          "key": "E",
+          "value": "exercise"
+        },
+        {
+          "key": "A",
+          "value": "alcohol"
+        },
+        {
+          "key": "&uArr;",
+          "value": "fell asleep"
+        },
+        {
+          "key": "&dArr;",
+          "value": "woke up"
+        }
+       ]
+    },
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Child\"",
+      "name": "Two Week Sleep Diary (Child)",
+      "use_before_first": "maybe",
+      "use_between_appointments": "maybe",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two Week Sleep Diary Child.jpg",
+          "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Child.pdf"
+        }
+      ],
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Noon",
+      "inbed_marker": "|",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "▬",
+      "events": [
+        {
+          "key": "C",
+          "value": "caffeine"
+        },
+        {
+          "key": "M",
+          "value": "medicine"
+        },
+        {
+          "key": "E",
+          "value": "exercise"
+        },
+        {
+          "key": "&uArr;",
+          "value": "fell asleep"
+        },
+        {
+          "key": "&dArr;",
+          "value": "woke up"
+        }
+       ]
+    },
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Infant\"",
+      "name": "Two Week Sleep Diary (Infant)",
+      "use_before_first": "maybe",
+      "use_between_appointments": "maybe",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two Week Sleep Diary Infant.jpg",
+          "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Infant.pdf"
+        }
+      ],
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Noon",
+      "inbed_marker": "|",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "▬",
+      "events": [
+        {
+          "key": "C",
+          "value": "caffeine"
+        },
+        {
+          "key": "M",
+          "value": "medicine"
+        },
+        {
+          "key": "A",
+          "value": "active"
+        },
+        {
+          "key": "C",
+          "value": "crying/fussy"
+        },
+        {
+          "key": "F",
+          "value": "feeding"
+        },
+        {
+          "key": "X",
+          "value": "infant slept with someone"
+        },
+        {
+          "key": "&uArr;",
+          "value": "fell asleep"
+        },
+        {
+          "key": "&dArr;",
+          "value": "woke up"
+        }
+       ]
+    }
+  ],
+  "reports": [],
+  "id": "1652173809194",
+  "last_updated": "2022-05-10"
+}
