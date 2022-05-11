@@ -41,7 +41,7 @@
     {
       "sharing_status": "found online",
       "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Adult\"",
-      "name": "Two Week Sleep Diary Adult",
+      "name": "Two Week Sleep Diary (Adult)",
       "use_before_first": "maybe",
       "use_between_appointments": "maybe",
       "gallery": [
@@ -50,31 +50,138 @@
           "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Adult.pdf"
         }
       ],
-#      TODO: fill in the values below:
-#      "layout": "calendar", # or "graph" or "questionnaire"
-#      "start_page": 1, # or the index of the relevant page in the PDF
-#      "total_pages": # e.g. 1 or "variable"
-#      "page_duration": # how blocks are separated, e.g. "14 days" or "2 weeks"
-#      NOTE: the following are only required for calendars:
-#      "start_time": # e.g. "Noon" or "6pm"
-#      "inbed_marker": # e.g. "&darr;" or "(none)"
-#      "outofbed_marker": # e.g. "&uarr;" or "(none)"
-#      "sleep_marker": # e.g. ▬ or ▮
-#      "events": [
-#        {
-#          "key": # e.g. "C"
-#          "value": # e.g. "coffee, cola, or tea"
-#        },
-#        ...
-#       ],
-#       "modifiers": [
-#         {
-#           "component": "bar",
-#           "colour": "", # e.g. "green"
-#           "description": "" # e.g. "delayed retirement"
-#         },
-#         ...
-#       ]
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Noon",
+      "inbed_marker": "|",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "▬",
+      "events": [
+        {
+          "key": "C",
+          "value": "caffeine"
+        },
+        {
+          "key": "M",
+          "value": "medicine"
+        },
+        {
+          "key": "E",
+          "value": "exercise"
+        },
+        {
+          "key": "A",
+          "value": "alcohol"
+        },
+        {
+          "key": "&uArr;",
+          "value": "fell asleep"
+        },
+        {
+          "key": "&dArr;",
+          "value": "woke up"
+        }
+       ]
+    },
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Child\"",
+      "name": "Two Week Sleep Diary (Child)",
+      "use_before_first": "maybe",
+      "use_between_appointments": "maybe",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two Week Sleep Diary Child.jpg",
+          "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Child.pdf"
+        }
+      ],
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Noon",
+      "inbed_marker": "|",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "▬",
+      "events": [
+        {
+          "key": "C",
+          "value": "caffeine"
+        },
+        {
+          "key": "M",
+          "value": "medicine"
+        },
+        {
+          "key": "E",
+          "value": "exercise"
+        },
+        {
+          "key": "&uArr;",
+          "value": "fell asleep"
+        },
+        {
+          "key": "&dArr;",
+          "value": "woke up"
+        }
+       ]
+    },
+    {
+      "sharing_status": "found online",
+      "instructions_to_find": "1. go to https://allinclinic.ca/documents-brochures/\n2. click on \"Two Week Sleep Diary Infant\"",
+      "name": "Two Week Sleep Diary (Infant)",
+      "use_before_first": "maybe",
+      "use_between_appointments": "maybe",
+      "gallery": [
+        {
+          "thumb": "/resources/thumbs/Two Week Sleep Diary Infant.jpg",
+          "url": "https://allinclinic.ca/wp-content/uploads/2021/03/Two-Week-Sleep-Diary-Infant.pdf"
+        }
+      ],
+      "layout": "calendar",
+      "start_page": 1,
+      "total_pages": 1,
+      "page_duration": "2 weeks",
+      "start_time": "Noon",
+      "inbed_marker": "|",
+      "outofbed_marker": "(none)",
+      "sleep_marker": "▬",
+      "events": [
+        {
+          "key": "C",
+          "value": "caffeine"
+        },
+        {
+          "key": "M",
+          "value": "medicine"
+        },
+        {
+          "key": "A",
+          "value": "active"
+        },
+        {
+          "key": "C",
+          "value": "crying/fussy"
+        },
+        {
+          "key": "F",
+          "value": "feeding"
+        },
+        {
+          "key": "X",
+          "value": "infant slept with someone"
+        },
+        {
+          "key": "&uArr;",
+          "value": "fell asleep"
+        },
+        {
+          "key": "&dArr;",
+          "value": "woke up"
+        }
+       ]
     }
   ],
   "reports": [],
