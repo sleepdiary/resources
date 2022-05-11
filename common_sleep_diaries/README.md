@@ -12,7 +12,7 @@ Implementation: namespace(name='cpython', cache_tag='cpython-39', version=sys.ve
 
 If your system returns different `reproducibility_information`, you can see whether the output is the same by comparing the output of [`generate.py`](generate.py) on your system with the available datasets below.
 
-Available datasets:
+## Available datasets
 
 - [person with no interesting sleep issues](simple.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/simple.csv))
 - [person who sets an alarm for 7am on weekdays](weekday_alarm.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/weekday_alarm.csv))
@@ -21,7 +21,7 @@ Available datasets:
 
 These datasets only provide a basic resemblance to each condition, and are primarily intended for use in testing new software.  See also [the machine-readable list of datasets](../common_sleep_diaries.json).
 
-Available software:
+## Available software
 
 - [a library to generate datasets](common_sleep_diaries.py) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/common_sleep_diaries.py))
 - [an example program using the library](example.py) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/example.py))
