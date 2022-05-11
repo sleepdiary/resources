@@ -76,11 +76,11 @@
           "value": "alcohol"
         },
         {
-          "key": "&uArr;",
+          "key": "&dArr;",
           "value": "fell asleep"
         },
         {
-          "key": "&dArr;",
+          "key": "&uArr;",
           "value": "woke up"
         }
        ]
@@ -119,11 +119,11 @@
           "value": "exercise"
         },
         {
-          "key": "&uArr;",
+          "key": "&dArr;",
           "value": "fell asleep"
         },
         {
-          "key": "&dArr;",
+          "key": "&uArr;",
           "value": "woke up"
         }
        ]
@@ -174,11 +174,11 @@
           "value": "infant slept with someone"
         },
         {
-          "key": "&uArr;",
+          "key": "&dArr;",
           "value": "fell asleep"
         },
         {
-          "key": "&dArr;",
+          "key": "&uArr;",
           "value": "woke up"
         }
        ]
