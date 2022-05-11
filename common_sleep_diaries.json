@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "simple.csv",
+    "title": "person with no interesting sleep issues",
+    "short_title": "no interesting sleep issues"
+  },
+  {
+    "filename": "weekday_alarm.csv",
+    "title": "person who sets an alarm for 7am on weekdays",
+    "short_title": "alarm at 7am on weekdays"
+  },
+  {
+    "filename": "dspd.csv",
+    "title": "person who has Delayed Sleep Phase Disorder",
+    "short_title": "Delayed Sleep Phase Disorder"
+  },
+  {
+    "filename": "non24.csv",
+    "title": "person who has Non-24 Sleep-Wake Disorder",
+    "short_title": "Non-24 Sleep-Wake Disorder"
+  }
+]

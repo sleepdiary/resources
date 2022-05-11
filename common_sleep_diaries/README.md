@@ -19,7 +19,7 @@ Available datasets:
 - [person who has Delayed Sleep Phase Disorder](dspd.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/dspd.csv))
 - [person who has Non-24 Sleep-Wake Disorder](non24.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/non24.csv))
 
-These datasets only provide a basic resemblance to each condition, and are primarily intended for use in testing new software.
+These datasets only provide a basic resemblance to each condition, and are primarily intended for use in testing new software.  See also [the machine-readable list of datasets](../common_sleep_diaries.json).
 
 Available software:
 
